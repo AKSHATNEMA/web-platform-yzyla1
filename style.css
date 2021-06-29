@@ -66,9 +66,6 @@ hr{
   text-align: center;
   padding: 1em 2em 1em 2em;
 }
-<<<<<<< HEAD
-
-=======
 .head  img{
   border-radius: 100px;
 }
@@ -76,13 +73,12 @@ hr{
   color: white;
   text-decoration: none;
 }
->>>>>>> a002e8a230c61b81c721681c50e0dfd578e4d68b
 .intro {
   padding: 20px 20px 20px 30px; 
   text-align:left;
   font-family: "Big Shoulder Display";
   font-size: 20px;
-  background-color: #2b2f36;
+  background-color: rgb(16, 16, 17);
   color: white;
   font-weight: 200;
 }
