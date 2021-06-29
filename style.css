@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
 	font-family: sans-serif;
+  background-image: url("C:\Users\hp\web-platform-yzyla1\images\b2.jpg");
+  
 }
 
 header {
@@ -15,14 +17,14 @@ header {
 }
 header img {
   width: 50px;
-  background:yellow;
   border-radius: 10px;
   margin: 0 20px 0 40px;
 }
 
 .header1{
-  background: yellow;
+  background: linear-gradient(to right, rgba(247, 91, 35),rgba(252, 186, 3),rgba(250, 243,0.2));
   font-family: "Libre Baskerville",sans-serif;
+  
 }
 .navigation {
   display: flex;
@@ -53,14 +55,11 @@ hr{
 .head{
   font-family:'Secular One' ;
   font-weight: 400;
-  color: white;
+  color: rgb(14, 1, 1);
+  background:linear-gradient(to right,rgba(240, 86, 24,0.6), rgba(224, 113, 22, 0.2), rgba(74, 40, 1,0.5));
   font-size: 2.5em;
-  background-color: #00eaff;
   text-align: center;
   padding: 1em 2em 1em 2em;
-}
-.head  img{
-  border-radius: 100px;
 }
 
 .intro {
@@ -77,6 +76,7 @@ hr{
   background: white;
   float: left;
   width: 40%;
+  padding-left: 70px;
   border: 3px solid #a0a0a0;
   height: 30%;
   margin: 20px 20px 10px 20px;
@@ -114,5 +114,23 @@ div .date {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: ;
+  
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.centered {
+  position: absolute;
+  top:70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
