@@ -66,9 +66,7 @@ hr{
   text-align: center;
   padding: 1em 2em 1em 2em;
 }
-.head  img{
-  border-radius: 100px;
-}
+
 .list :any-link{
   color: white;
   text-decoration: none;
